@@ -1,8 +1,8 @@
 title: "Vishal Thummalapally"
 description: "Lucky you, you found my spot on the world wide web."
 # Set your production URL later (optional)
-url: ""
-baseurl: ""
+url: "https://vishalthatsme.github.io"
+baseurl: "/website"
 markdown: kramdown
 kramdown:
   input: GFM
