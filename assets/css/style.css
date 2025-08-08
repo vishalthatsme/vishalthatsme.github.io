@@ -59,3 +59,15 @@ footer .container { padding-top: 12px; padding-bottom: 12px; }
 
 .post-meta { font-size: 10px; opacity: 0.8; margin-bottom: 12px; }
 .post-content p { margin: 12px 0; }
+
+/* Retro font only for headings/navigation */
+h1, h2, h3, nav {
+  font-family: 'Press Start 2P', cursive;
+}
+
+/* Body text: clean and readable */
+body, p, li {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
