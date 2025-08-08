@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --bg: #fdf3e7;
+  --ink: #222;
+  --border: #000;
+  --grad-a: #ffccff;
+  --grad-b: #ccffff;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: 'Press Start 2P', cursive;
+  background: var(--bg);
+  color: var(--ink);
+}
+
+.container { max-width: 900px; margin: 0 auto; padding: 24px; }
+header.site-header {
+  background: linear-gradient(to right, var(--grad-a), var(--grad-b));
+  border-bottom: 4px solid var(--border);
+}
+header .brand { margin: 0; font-size: 22px; }
+nav a {
+  color: #000;
+  text-decoration: none;
+  margin-right: 18px;
+  font-size: 12px;
+}
+nav a:hover { text-decoration: underline; }
+
+main { padding: 24px 0; }
+main h1, main h2 { margin: 0 0 12px 0; font-size: 16px; }
+p { line-height: 1.6; font-size: 12px; }
+.intro-text { font-size: 12px; line-height: 1.6; margin-top: 16px; }
+
+.post-list { list-style: none; padding-left: 0; }
+.post-list li { margin-bottom: 8px; }
+.post-list a { color: #000; text-decoration: none; font-size: 12px; }
+.post-list a:hover { text-decoration: underline; }
+
+footer.site-footer {
+  border-top: 4px solid var(--border);
+  background: #fff;
+  font-size: 10px;
+}
+footer .container { padding-top: 12px; padding-bottom: 12px; }
+
+.center-gif {
+  display: block;
+  margin: 40px auto;
+  width: 200px;
+  height: auto;
+  image-rendering: pixelated;
+  border: 3px solid var(--border);
+  background: #000;
+}
+
+.post-meta { font-size: 10px; opacity: 0.8; margin-bottom: 12px; }
+.post-content p { margin: 12px 0; }

@@ -1,0 +1,11 @@
+title: "Vishal Thummalapally"
+description: "Lucky you, you found my spot on the world wide web."
+# Set your production URL later (optional)
+url: ""
+baseurl: ""
+markdown: kramdown
+kramdown:
+  input: GFM
+permalink: /blog/:title/
+# Keep it plugin-free for GitHub Pages compatibility
+theme: null
