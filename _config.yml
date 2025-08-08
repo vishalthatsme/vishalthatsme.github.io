@@ -9,3 +9,4 @@ kramdown:
 permalink: /blog/:title/
 # Keep it plugin-free for GitHub Pages compatibility
 theme: null
+future: true
