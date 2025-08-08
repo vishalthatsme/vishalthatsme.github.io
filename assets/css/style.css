@@ -10,8 +10,12 @@
 
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
+
+/* Default body text is clean sans-serif */
 body {
-  font-family: 'Press Start 2P', cursive;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
   background: var(--bg);
   color: var(--ink);
 }
@@ -22,6 +26,11 @@ header.site-header {
   border-bottom: 4px solid var(--border);
 }
 header .brand { margin: 0; font-size: 22px; }
+
+/* Retro font only for headings/nav */
+h1, h2, h3, nav {
+  font-family: 'Press Start 2P', cursive;
+}
 nav a {
   color: #000;
   text-decoration: none;
@@ -32,12 +41,21 @@ nav a:hover { text-decoration: underline; }
 
 main { padding: 24px 0; }
 main h1, main h2 { margin: 0 0 12px 0; font-size: 16px; }
-p { line-height: 1.6; font-size: 12px; }
-.intro-text { font-size: 12px; line-height: 1.6; margin-top: 16px; }
+p { margin: 0 0 1em 0; }
+
+/* Intro + About + Blog list unified */
+.intro-text,
+#about p,
+.post-list li,
+.post-list a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
 
 .post-list { list-style: none; padding-left: 0; }
 .post-list li { margin-bottom: 8px; }
-.post-list a { color: #000; text-decoration: none; font-size: 12px; }
+.post-list a { color: #000; text-decoration: none; }
 .post-list a:hover { text-decoration: underline; }
 
 footer.site-footer {
@@ -59,24 +77,3 @@ footer .container { padding-top: 12px; padding-bottom: 12px; }
 
 .post-meta { font-size: 10px; opacity: 0.8; margin-bottom: 12px; }
 .post-content p { margin: 12px 0; }
-
-/* Retro font only for headings/navigation */
-h1, h2, h3, nav {
-  font-family: 'Press Start 2P', cursive;
-}
-
-/* Body text: clean and readable */
-body, p, li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
-}
-
-/* Unify body text styles */
-.intro-text,
-#about p,
-.post-list li {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
-}
