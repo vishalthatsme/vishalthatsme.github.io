@@ -23,5 +23,5 @@ description: "Lucky you, you found my spot on the world wide web."
   </ul>
 </section>
 
-<!--<img class="center-gif" src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif" alt="retro hacker text gif"> -->
-<img class="center-gif" src="{{ '/assets/img/library.gif' | relative_url }}" alt="Library animation">
+<img class="center-gif" src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif" alt="retro hacker text gif"> 
+<!--<img class="center-gif" src="{{ '/assets/img/library.gif' | relative_url }}" alt="Library animation"> -->
